@@ -289,31 +289,39 @@ nav ul li a {
 
 #footer-section {
   width: 100%;
-  height: 300px;
+  height: 362px;
   background: linear-gradient(rgb(0, 32, 59));
 }
-.footer-contant{
+
+.footer-contant {
   padding: 120px 120px 80px 120px;
   width: 90%;
 }
-.footer-contant{
+
+.footer-contant {
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 18px;
 }
-.footer-contant .social-icons p{
-  color: white;
+
+.footer-contant .social-icons p {
+  color:#627382;
   letter-spacing: 2px;
-  
+
 }
-.footer-contant .social-icons a{
+
+.footer-contant .social-icons a {
   text-decoration: none;
   color: white;
   margin-left: 16px;
 }
-.footer-copyright{
+
+.footer-copyright {
   color: white;
-  margin: ;
   text-align: center;
+  color: #627382;
 }
+
+
+/* submit by Murad */
