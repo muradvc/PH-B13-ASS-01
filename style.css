@@ -26,6 +26,16 @@
   color: #30B868;
   border: 1px solid #30B868;
 }
+.card{
+  width: 322px;
+  height: 300px;
+  padding: 24px;
+  background-color: white;
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
 
 
 /* asob deferent class */
@@ -61,6 +71,8 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 70px 120px 134px 120px;
+  overflow: scroll;
+  position: relative;
 }
 
 .hero-section-container {
@@ -153,4 +165,42 @@ nav ul li a {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}
+.node-container{
+  width: 90%;
+  height:448px ;
+  margin: 0 auto;
+  text-align: center;
+}
+.node-t h1{
+  font-weight: bold;
+  margin: 36px 0 16px 0;
+  font-size: 48px;
+
+}
+.node-t p{
+  font-size: 16px;
+  color: #627382;
+}
+.node-card img{
+  background-color: #F95555;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  margin: 24px 0 16px 0;
+}
+.node-card{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 16px;
+margin-top: 44px;
+}
+.node-card h3{
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.node-card p{
+  color: #627382;
+  
 }
